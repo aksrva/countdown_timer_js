@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Londrina Outline', cursive;
+}
+.countdown_container{
+    width: 100%;
+    height: 100vh;
+    background-color:lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 550px;
+    height: 220px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    pointer-events: none;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.600), inset -5px -5px 15px rgba(0, 0, 0, 0.240), inset -10px -10px 10px rgba(0, 0, 0, 0.201), inset -15px -15px 15px rgba(0, 0, 0, 0.101);
+    padding: 0px 20px;
+    -webkit-user-select: none;
+}
+.countdown_time{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 1rem;
+    color: violet;
+    text-shadow: 3px 5px 5px rgba(241, 11, 149, 0.683);
+}
+.l_txt{
+    font-size: 50px;
+}
+.seconds_text{
+    color: darkred;
+}
